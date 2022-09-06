@@ -4,7 +4,7 @@ from .models import *
 
 @admin.register(Blog)
 class BlogAdmin(admin.ModelAdmin):
-    list_display = ['id', 'title', 'slug']
+    list_display = ['id', 'title']
 
 
 @admin.register(Category)
